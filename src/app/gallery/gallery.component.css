@@ -1,0 +1,27 @@
+.mat-card {
+  background-color: whitesmoke;
+}
+.content {
+  padding: 16px;
+}
+.content > mat-card {
+  width: 200px;
+}
+button {
+  background-color: rgb(0, 153, 255);
+  color: white;
+}
+button:hover {
+  background-color: rgb(247, 241, 241);
+  color: black;
+}
+.example-header-image {
+  background-image: url(../../assets/Faye.jpg);
+  background-size: cover;
+}
+.mat-card-actions {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
